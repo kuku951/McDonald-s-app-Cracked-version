@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mc.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="回優惠卷"
+        app:showAsAction="never" />
+    <item android:id="@+id/menu_about"
+        android:title="已兌換餐卷"
+        android:orderInCategory="200"
+        app:showAsAction="never"/>
+    <item android:id="@+id/finish"
+        android:title="結束應用程式"
+        android:orderInCategory="200"
+        app:showAsAction="never"/>
+</menu>
